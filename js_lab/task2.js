@@ -1,15 +1,15 @@
 function pascalTriangle () {
     var arr = [];
     var i, j;
-    var size=prompt('For this task, please, enter the size of Pascal`s triangle:', '');
+    var size=prompt('For this task, please, enter the size of Pascal`s triangle:');
   
 document.write ('<style>\n')
-document.write ('p {text-align: center; margin: 0; font-family: Arial, Helvetica, sans-serif;; font-size: 14pt }\n');
+document.write ('p {text-align: center; margin: 0; font-family: Arial, Helvetica, sans-serif; font-size: 14pt }\n');
 document.write ('b {width: 3em; text-align: center; display: inline-block; margin-left: 3em}\n');
 document.write ('</style>\n');
 document.write ('<body>\n');
  
-document.write ('<h2 style="font-family: Arial, Helvetica, sans-serif;">Task 2:</h2>');
+document.write ('<hr><h2 style="font-family: Arial, Helvetica, sans-serif;">Task 2:</h2>');
 document.write ('<p>');
     for(i = 1; i <= size ; i++)
     {
